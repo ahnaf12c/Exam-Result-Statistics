@@ -1,6 +1,6 @@
 #include <stdio.h>
 const int n;
-int i, fail_count = 0, Aplus = 0, A = 0, B = 0, C = 0, close;
+int i, fail_count = 0, Aplus = 0, A = 0, B = 0, C = 0;
 int marks_count[101]; // the marks can range from 0 to 100, so this ara has a total of 101 items.
 
 int main()
@@ -144,9 +144,6 @@ int main()
         }
     }
     printf("\n-----------------\n");
-    scanf("%d", &close);
 
     return 0;
 }
-/* fixed bugs, typos, glitches etc. Will improve it more later.
-declared the variables outside the main block, that will make some further improvements easier. */
